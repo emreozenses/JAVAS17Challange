@@ -10,8 +10,9 @@ import lombok.NoArgsConstructor;
 @Data
 public class Course {
 
+    private Integer id;
     private String name;
-    private int credit;
+    private Integer credit;
     private Grade grade;
 
 }
